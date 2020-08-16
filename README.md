@@ -3,8 +3,12 @@
 本文章是使用`protobuf`反射的一个总结，假定阅读者已经会搭建`proto`环境并且已会生成`.pb.h`文件，阅读完本篇，你会得到以下几个问题的解决方案的参考：
 
 1. Proto 的正常使用
+
 2. 对定义的任意结构进行遍历
+
 3. 在没有通过`protoc.exe`生成头文件的情况下，通过动态加载`*.proto.`来进行结构对象的生成,并可以使用反射机制进行修改
+
+   > github:https://github.com/yxinyi/DynamicProtoBufParse
 
 #### 为了测试所有常用类型，后续所有结构皆用下面定义
 
@@ -226,9 +230,7 @@ const Message* _prototype_message = m_dynamic_factory.GetPrototype(_des);
 Message* _msg = _prototype_message->New();
 ```
 
-
-
-
+还有下一种写法，如果查看代码，可以看到下一种写法是上一种的封装。
 
 ```
 const string _proto_file_path = "./Proto";
@@ -254,9 +256,7 @@ const Message* _prototype_message  = m_dynamic_factory.GetPrototype(_des);
 Message* _msg = _prototype_message->New();
 ```
 
-
-
-
+至此，我们完成了我们的需求，动态加载对象，并对其所有子属性进行遍历，设计的当的话，我们可以写出更高自由度的设计，用以支持任意的`*.proto`结构。
 
 
 
