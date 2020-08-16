@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+message SubEx {
+	uint64           sub_uint64           = 1;
+	int64            sub_int64            = 2;
+	uint32           sub_uint32           = 3;
+	int32            sub_int32            = 4;
+	double           sub_double           = 5;
+	float            sub_float            = 6;
+	string           sub_string           = 7;
+	bool             sub_bool             = 8;	
+	repeated uint64  sub_repeated_uint64  = 9;
+	repeated int64   sub_repeated_int64   = 10;
+	repeated uint32  sub_repeated_uint32  = 11;
+	repeated int32   sub_repeated_int32   = 12;
+	repeated double  sub_repeated_double  = 13;
+	repeated float   sub_repeated_float   = 14;
+	repeated string  sub_repeated_string  = 15;
+	repeated bool    sub_repeated_bool    = 16;
+}
+ 
+message Example {
+	uint64 		     ex_uint64           = 1;
+	int64  		     ex_int64            = 2;
+	uint32 		     ex_uint32           = 3;
+	int32  		     ex_int32            = 4;
+	double 		     ex_double           = 5;
+	float  		     ex_float            = 6;
+	string 		     ex_string           = 7;
+	bool   		     ex_bool             = 8;		
+	repeated uint64  ex_repeated_uint64  = 9;
+	repeated int64   ex_repeated_int64   = 10;
+	repeated uint32  ex_repeated_uint32  = 11;
+	repeated int32   ex_repeated_int32   = 12;
+	repeated double  ex_repeated_double  = 13;
+	repeated float   ex_repeated_float   = 14;
+	repeated string  ex_repeated_string  = 15;
+	repeated bool    ex_repeated_bool    = 16;
+	SubEx			 sub_ex              = 17;	
+}

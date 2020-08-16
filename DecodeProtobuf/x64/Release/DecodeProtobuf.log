@@ -1,0 +1,60 @@
+﻿  main.cpp
+F:\DecodeProtobuf\DynamicProtoBufParse\protobuf\google\protobuf\reflection.h(396,19): warning C4996: 'std::iterator<std::forward_iterator_tag,T,ptrdiff_t,T *,T &>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+          with
+          [
+              T=google::protobuf::Message
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xutility(5835,1): message : 参见“std::iterator”的声明
+F:\DecodeProtobuf\DynamicProtoBufParse\protobuf\google\protobuf\dynamic_message.h(166): message : 查看对正在编译的 类 模板 实例化“google::protobuf::internal::RepeatedFieldRefIterator<T>”的引用
+          with
+          [
+              T=google::protobuf::Message
+          ]
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(26,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(29,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(32,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(35,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(38,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(41,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(44,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(47,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(50,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\main.cpp(59,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\main.cpp(62,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\main.cpp(65,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\main.cpp(68,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\main.cpp(71,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\main.cpp(74,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\main.cpp(77,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\main.cpp(80,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\main.cpp(83,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  ProtoBufParse.cpp
+F:\DecodeProtobuf\DynamicProtoBufParse\protobuf\google\protobuf\reflection.h(396,19): warning C4996: 'std::iterator<std::forward_iterator_tag,T,ptrdiff_t,T *,T &>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+          with
+          [
+              T=google::protobuf::Message
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xutility(5835,1): message : 参见“std::iterator”的声明
+F:\DecodeProtobuf\DynamicProtoBufParse\protobuf\google\protobuf\dynamic_message.h(166): message : 查看对正在编译的 类 模板 实例化“google::protobuf::internal::RepeatedFieldRefIterator<T>”的引用
+          with
+          [
+              T=google::protobuf::Message
+          ]
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(26,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(29,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(32,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(35,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(38,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(41,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(44,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(47,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.h(50,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.cpp(22,79): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.cpp(29,24): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.cpp(75,92): warning C4267: “参数”: 从“size_t”转换到“const uint32_t”，可能丢失数据
+F:\DecodeProtobuf\DynamicProtoBufParse\DecodeProtobuf\ProtoBufParse.cpp(85,75): warning C4267: “参数”: 从“size_t”转换到“const uint32_t”，可能丢失数据
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 955 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  DecodeProtobuf.vcxproj -> F:\DecodeProtobuf\DynamicProtoBufParse\x64\Release\DecodeProtobuf.exe
